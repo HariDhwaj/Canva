@@ -1,0 +1,48 @@
+.canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  .canvas-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-button {
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  .canvas-button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #01DFC2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .canvas-button:hover {
+    background-color: #019A86;
+  }
+  
+  .fabric-canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
